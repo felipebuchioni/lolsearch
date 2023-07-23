@@ -43,7 +43,7 @@ export function render(playerInfo, rankInfo) {
 
     const playerImgRank = document.createElement('div')
     playerImgRank.id = 'playerImgRank'
-    playerImgRank.style.backgroundImage = `url(../img/ranked-emblem/emblem-${tierImg}.png)`
+    playerImgRank.style.backgroundImage = `url(.../img/ranked-emblem/emblem-${tierImg}.png)`
 
     const playerAssets = document.createElement('div')
     playerAssets.classList.add('playerAssets')
