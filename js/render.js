@@ -21,7 +21,7 @@ export function render(playerInfo, rankInfo) {
 
   for(var i = 0; i < rankInfo.length; i++) {
 
-    const tierImg = rankInfo[i].tier
+    const tierImg = rankInfo[i].tier.toLowerCase()
     let queueType = ''
 
     switch(rankInfo[i].queue) {
