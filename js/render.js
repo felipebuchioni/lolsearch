@@ -21,7 +21,7 @@ export function render(playerInfo, rankInfo) {
 
   for(var i = 0; i < rankInfo.length; i++) {
 
-    const tierImg = ''
+    let tierImg = ''
     if(rankInfo[i].tier === undefined) {
       tierImg = 'undefined'
     } else {
