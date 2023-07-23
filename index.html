@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOL Search</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <script src="/js/script.js" defer type="module"></script>
+</head>
+<body>
+  
+  <main class="box" id="main"> 
+
+    <img src="./img/akali-back.png" alt="" class="mainImg">
+
+    <form action="" class="formBox">
+
+      <div class="regionPart">
+        <label for="selectRegion">Region</label>
+        <select name="region" id="region">
+          <option value="BR1">BR1</option>
+          <option value="EUN1">EUN1</option>
+          <option value="EUW1">EUW1</option>
+          <option value="JP1">JP1</option>
+          <option value="KR">KR</option>
+          <option value="LA1">LA1</option>
+          <option value="LA2">LA2</option>
+          <option value="NA1">NA1</option>
+          <option value="OC1">OC1</option>
+          <option value="TR1">TR1</option>
+          <option value="RU">RU</option>
+          <option value="PH2">PH2</option>
+          <option value="SG2">SG2</option>
+          <option value="TH2">TH2</option>
+          <option value="TW2">TW2</option>
+          <option value="VN2">VN2</option>
+        </select>
+      </div>
+
+      <div class="regionPart search">
+      <label for="nameSearch">Search</label>
+      <input type="search" id="nameSearch" class="searchInput" placeholder="Insert you nickname">
+      </div>
+
+    </form>
+
+    <div id="error"></div>
+
+    <section class="playerStats">
+      <div id="playerIcon"></div>
+
+      <div class="playerAssets">
+        <h1 id="playerName"></h1>
+        <p id="playerLevel"></p>
+      </div>
+
+    </section>
+
+
+  </main>
+
+</body>
+</html>

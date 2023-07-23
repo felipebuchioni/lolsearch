@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --prymary-color: #2b2b2b;
+  --second-color: #505050;
+  --terc-color: #747474;
+  --fourt--color: #E7F6F2;
+  --font: 'Poppins';
+
+  --iron: #b8b8b8;
+  --bronze: #bd9565;
+  --silver: #fffdfd;
+  --gold: #eebc4f;
+  --platinum: #59bd77;
+  --diamond: #69d8e0;
+  --master: #9769e0;
+  --gran-master: #e06979;
+  --challenger: #3f6dee;
+}
+
+body {
+  background-color: var(--prymary-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+main {
+  padding: 20px 0px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+.mainImg {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.regionPart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: var(--font);
+  color: var(--fourt--color);
+  font-size: 0.7em;
+}
+
+.search {
+  width: 100%;
+}
+
+::-webkit-search-cancel-button {
+
+  -webkit-appearance: none;
+}
+
+
+.formBox{
+  width: 80%;
+  padding: 10px 40px;
+  display: flex;
+  gap: 0px 25px;
+  align-items: center;
+  background-color: var(--second-color);
+  border-radius: 100px;
+}
+
+#region {
+  outline: none;
+  border: none;
+  background-color: var(--second-color);
+  color: var(--fourt--color);
+  padding: 10px 0px;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.searchInput {
+  background-image: url('../img/search-icon.png');
+  background-size: 1.2em;
+  background-position: 1em;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 10px 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font);
+  color: var(--fourt--color);
+  border-radius: 0px 5px 5px 0px;
+}
+
+input:-internal-autofill-selected {
+  background-color: transparent;
+}
+
+#error {
+  color: #ee7b7b;
+  font-family: var(--font);
+}
+
+.playerInfos {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0px 25px;
+  margin-top: 50px;
+  color: var(--fourt--color);
+  font-family: var(--font);
+}
+
+.playerStats {
+  display: flex;
+  align-items: center;
+  gap: 0px 25px;
+  margin-top: 50px;
+  color: var(--fourt--color);
+  font-family: var(--font);
+}
+
+.playerAssets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#playerName {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+#playerLevel {
+  font-size: 2em;
+}
+
+#playerRank {
+  color: var(--bronze);
+  font-size: 3em;
+  font-weight: 800;
+}
+
+#playerTier {
+  font-size: 2em;
+
+}
+
+#queueType {
+  font-size: 1em;
+}
+
+#playerIcon {
+  background-size: cover;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+#playerImgRank {
+  background-image: url('../img/ranked-emblem/emblem-bronze.png');
+  background-position: center;
+  width: 400px;
+  height: 250px;
+}
