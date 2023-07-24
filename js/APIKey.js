@@ -1,3 +1,3 @@
 export const APIKey = () => {
-  return 'RGAPI-3f77d52f-c328-4aee-a199-221c70310670'
+  return 'RGAPI-7a493164-08c5-4d03-8077-7f14222ab6a1'
 }
